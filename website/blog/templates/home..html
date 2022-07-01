@@ -1,0 +1,10 @@
+<html>
+<div>
+    {% block content %}
+     {% for blog in blogs %}
+    {{ blog.title}}
+
+    {% endfor %} <br>
+    {% endblock content %}
+</div>
+</html>

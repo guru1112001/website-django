@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+class user(models.Model):
+    password=models.CharField
+    phone_no=models.IntegerField()
+    email=models.EmailField()
+    
+
